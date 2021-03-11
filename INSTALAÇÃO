@@ -1,0 +1,11 @@
+pkg install git && pkg install tesseract wget
+
+apt update && apt upgrade
+
+git clone https://github.com/Kakashi-Edits/tetsujin.git
+
+cd tetsujin
+
+npm i -g cwebp && npm i node-tesseract-ocr && npm i -g ytdl
+
+basta escanear o código QR e pronto

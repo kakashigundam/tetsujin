@@ -1,0 +1,30 @@
+TETSUJIN INSTALLER
+
+pkg install git && pkg install tesseract && pkg install update && apt upgrade
+
+pkg install coreutils
+
+termux-setup-storage
+
+cd 
+
+ls
+
+git init
+
+git add .
+
+git config --global user.email "tcgamer71@gmail.com"
+
+git config --global user.name "Kakashi-Edits"
+
+git commit -m "First commit"
+
+git remote add origin https://github.com/Kakashi-Edits/tetsujin.git
+
+git remote -v
+
+git push origin master
+
+username: Kakashi-Edits
+password: Kakashi123321
